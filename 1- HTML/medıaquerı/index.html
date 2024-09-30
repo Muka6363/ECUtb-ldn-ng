@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      body {
+        padding: 15px;
+      }
+      img {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .products > div {
+        margin-bottom: 15px;
+      }
+
+      @media (min-width: 640px) {
+        .products > div {
+          display: flex;
+          gap: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="products">
+      <h1>Våra produkter</h1>
+      <div> <!-- flex container -->
+
+        <div>
+          <img
+            src="https://placehold.co/400x520/png?text=Svart+T-shirt"
+            alt=""
+          />
+          Svart T-shirt
+        </div>
+
+        <div>
+          <img
+            src="https://placehold.co/400x520/png?text=Svart+T-shirt"
+            alt=""
+          />
+          Svart T-shirt
+        </div>
+
+        <div>
+          <img
+            src="https://placehold.co/400x520/png?text=Svart+T-shirt"
+            alt=""
+          />
+          Svart T-shirt
+        </div>
+
+        <div>
+          <img
+            src="https://placehold.co/400x520/png?text=Svart+T-shirt"
+            alt=""
+          />
+          Svart T-shirt
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>
